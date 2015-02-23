@@ -2,5 +2,4 @@
 
 git add .
 message=`kdialog --title "Input dialog" --inputbox "What name would you like to use?"`
-echo git commit -m \'$message\'
-git commit -m \'$message\'
+git commit -m $message
